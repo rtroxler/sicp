@@ -1,7 +1,5 @@
 #lang racket
 
-; ab^n is unchanged for each iteration
-
 (define (expt b n)
   (a-fast-expt b n 1))
 
@@ -15,5 +13,4 @@
 (define (square x) (* x x))
 
 (expt 11 45)
-; shit's fast
-
+; shit's so fast
